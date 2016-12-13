@@ -26,7 +26,8 @@ $(function() {
             }).appendTo($course);
             
             $('<a />', {
-                'class': '_blank',
+                'class': 'btn btn-primary',
+                'target': '_blank',
                 href: course.url,
                 text: 'See Course'
             }).appendTo($course);
